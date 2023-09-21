@@ -315,7 +315,7 @@ h3 {
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   border-radius: 20px;
   opacity: 0;
-  animation: slideRight 1s ease forwards;
+  animation: slideRight 1s ease forwards !important;
   animation-delay: 0.7s;
 }
 .about-experience {
@@ -330,7 +330,7 @@ h3 {
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   border-radius: 20px;
   opacity: 0;
-  animation: slideLeft 1s ease forwards;
+  animation: slideLeft 1s ease forwards !important;
   animation-delay: 0.7s;
 }
 
@@ -408,12 +408,12 @@ h3 {
 }
 .skill-box:first-child {
   opacity: 0;
-  animation: slideRight 1s ease forwards;
+  animation: slideRight 1s ease forwards !important;
   animation-delay: 0.7s;
 }
 .skill-box:last-child {
   opacity: 0;
-  animation: slideLeft 1s ease forwards;
+  animation: slideLeft 1s ease forwards !important;
   animation-delay: 0.7s;
 }
 
